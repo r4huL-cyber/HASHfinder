@@ -1,22 +1,32 @@
-# 🔐 Big Text Encryptor by R4HUL
+# 🔐 Multi hashfinder by R4HUL
 
-A powerful, simple-to-use Python tool that helps you **identify the type of encrypted text**. Supports classical and modern encoding patterns like **Base64**, **Base32**, **ROT13**, **SHA256**, and **Caesar Cipher**.
+A stylish and powerful multi-algorithm encryption and decryption tool built with **Python** and **Flask**.
 
----
-
-## 🚀 Features
-
-- 🔎 Identifies common encrypted formats:
-  - Base64
-  - Base32
-  - ROT13
-  - SHA256 (hash detection)
-  - Caesar Cipher (basic pattern detection)
-- 💡 Auto-clears terminal for clean UX
-- 👨‍💻 Developer-styled terminal output
-- 🎨 Designed and built by **R4HUL**
+It supports both a **web interface** and a **colorful CLI mode**, allowing you to encrypt, decrypt, and identify text using popular ciphers and hashes.
 
 ---
 
-## 📂 Project Structure
+## ✨ Features
 
+✅ Web-based encryption & decryption  
+✅ CLI banner with rainbow style  
+✅ Identify encrypted text type  
+✅ Algorithms supported:
+
+- Base64, Base32
+- Caesar Cipher
+- ROT13
+- Vigenère Cipher
+- AES (Password-based)
+- Atbash Cipher
+- Reverse Cipher
+- MD5, SHA1, SHA224, SHA256, SHA384, SHA512
+
+---
+
+## 🚀 Web App (Flask)
+
+### ▶️ Run the App
+
+```bash
+python app.py
