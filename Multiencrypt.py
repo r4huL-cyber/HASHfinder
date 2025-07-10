@@ -4,14 +4,25 @@ import hashlib
 import string
 import time
 import os
+import pyfiglet
+import os
+from termcolor import cprint
 
-# === Banner ===
+cprint(title, "cyan")
+cprint(author, "green")
+
+
 def banner():
-    print("=" * 50)
-    print("🧠  MULTI ENCRYPTOR  🔐".center(50))
-    print("           by R4HUL           ".center(50))
-    print("=" * 50)
-    print()
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print("=" * 80)
+    
+    title = pyfiglet.figlet_format("Multi Encryptor", font="slant")
+    author = pyfiglet.figlet_format("by R4HUL", font="digital")
+
+    print(title)
+    print(author)
+    print("=" * 80)
+
 
 # === Identifier Logic ===
 def is_base64(s):
