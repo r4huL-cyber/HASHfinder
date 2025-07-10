@@ -24,9 +24,9 @@ It supports both a **web interface** and a **colorful CLI mode**, allowing you t
 
 ---
 
-## 🚀 Web App (Flask)
+## 🚀 Powerfull Tool
 
-### ▶️ Run the App
+### ▶️ Run the tool
 
 ```bash
-python app.py
+python3 hashfinder.py
